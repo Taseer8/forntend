@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .repositories {
+    width: 80%;
+    margin: 20px 20%;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .repository {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .repository .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .repository .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .repository .details .info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .repository .details .info .language {
+    margin-right: 10px;
+  }
+  
+  .repository .details .info .size {
+    margin-right: 10px;
+  }
+  
+  .repository .details .status {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .buttons .cont-btn  {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  .button-1 {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: #a3c3fb;
+    cursor: pointer;
+  }
+  
+  .name .public {
+    background-color:  rgb(194, 193, 255);
+    width: 102px;
+    margin: 10px;
+    border-radius: 20px;
+    color: rgb(93, 93, 93);
+    font-weight: lighter;
+    opacity: 50%;
+  }
+  
+ .name .private {
+    background-color: rgb(194, 193, 255);
+    width: 75px;
+    margin: 10px;
+    border-radius: 20px;
+    border: rgb(194, 193, 255) solid 1px;
+    color: rgb(93, 93, 93);
+    font-weight: lighter;
+    opacity: 50%;
+  }
+  @media (max-width: 767.98px) {
+    .repositories {
+        width: 80%;
+        margin: 20px 10%;
+        border: 1px solid #ddd;
+        padding: 20px;
+      }
+      .buttons   {
+        display: flex;
+        flex-direction: column;
+        
+      }
+}
+  

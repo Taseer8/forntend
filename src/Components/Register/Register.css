@@ -1,0 +1,310 @@
+.register{
+    display: flex;
+}
+.register-poster  {
+    display: block;
+    margin: 0 0;
+    width: 60%;
+
+}
+
+ .right-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    box-shadow: 4px 0px 4px 4px rgb(222, 222, 222);
+    border-radius: 20px;
+    margin: 20% 10%;
+    padding: 20px;
+    
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+   
+}
+.img img {
+width: 30px;
+    
+}
+.img h4{
+    margin: 5px;
+} 
+.right-2{
+    display: flex;
+}
+.complate-1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    justify-content: center;
+    margin: 10px;
+}
+.complate-1 h3{
+    display: flex;
+    justify-content: center;
+
+}
+.comp-2{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    box-shadow: 4px 4px 4px 4px rgb(222, 222, 222);
+    border-radius: 20px;
+    margin: -25% 40%;
+  
+}
+.comp2-content{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.comp2-content .cont-21{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:  0px 0px;
+
+}
+.cont-21 img{
+    width: 80%;
+    margin: 10px 0;
+}
+.comp2-content .cont-22{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding:  0 30px;
+
+}
+.image{
+    position: relative;
+    bottom: -40%;
+    opacity: 40%;
+
+}
+.regiter-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+}
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+}
+
+.register-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    box-shadow: 4px 0px 4px 4px rgb(222, 222, 222);
+    border-radius: 20px;
+    margin:30px auto; 
+    padding: 20px; 
+}
+
+.register-right h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.wel-cont h2 {
+    padding: 20px;
+    text-align: center; 
+}
+
+.wel-btn {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 5px; 
+}
+
+.wel-btn button {
+    width: 150px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.wel-btn .active {
+    background-color: blue;
+    color: white;
+}
+
+.wel-btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    gap: 10px; 
+}
+
+.form-1 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    gap: 10px; 
+    cursor: pointer;
+}
+.form-2{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 80%;
+    padding: 10px;
+}
+
+.form-1 i {
+    font-size: 1.2rem; 
+}
+
+.form-1 #bitbucket{
+    color: rgb(111, 132, 241);
+}
+
+.form-1 #azure{
+    color: rgb(38, 49, 104);
+}
+.form-1 #gitlab{
+    color: rgb(247, 79, 104);
+}
+
+
+
+
+
+
+
+@media (max-width: 767.98px) {
+    .register-poster{
+    display: none;
+   }
+   @media (max-width: 767.98px) {
+    .register-poster {
+        display: none;
+    }
+
+    .regiter-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90vh; 
+        width: 100%; 
+        gap: 20px; 
+        margin: 0; 
+        padding: 10px; 
+    }
+
+    .form-register {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%; 
+        gap: 20px;
+    }
+
+    .register-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+        padding: 20px;
+        box-shadow: none;
+        border-radius: 10px;
+        box-shadow: 4px 0px 4px 4px rgb(222, 222, 222); 
+        margin: 0 auto; 
+    }
+
+    .register-right h3 {
+        text-align: center; 
+    }
+
+    .wel-cont h5 {
+        text-align: center; 
+    }
+
+    .wel-btn {
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        justify-content: center;
+        gap: 10px; 
+        margin: 10px 0;
+    }
+
+    .wel-btn button {
+        width: 100%; 
+        max-width: 200px;
+        border-radius: 5px;
+        border: 0;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+        gap: 15px; 
+    }
+
+    .form-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+        max-width: 300px; 
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .form-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+        max-width: 300px; 
+        padding: 10px;
+    }
+
+    .form-1 i {
+        font-size: 1.2rem; 
+    }
+}
+
+
+}
